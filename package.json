@@ -8,7 +8,7 @@
 		"dev": "next",
 		"build": "next build",
 		"start": "next start",
-		"export": "next export && cp .nojekyll out/ && cp CNAME out/",
+		"export": "next export && cp _config.yml out/ && cp CNAME out/",
 		"deploy": "gh-pages -d out"
 	},
 	"dependencies": {
