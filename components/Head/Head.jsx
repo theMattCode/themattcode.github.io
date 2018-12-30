@@ -9,7 +9,7 @@ class Head extends React.Component {
 				<style jsx global>{`
 					body {
 						font-family: 'Roboto', sans-serif;
-						margin: 0px;
+						margin: 0;
 					}
 				`}</style>
 				<NextHead>
