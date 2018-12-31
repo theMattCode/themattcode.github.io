@@ -56,54 +56,53 @@ function (_React$Component) {
   _createClass(Head, [{
     key: "render",
     value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-        className: "jsx-2605636097",
+      return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_1__["Fragment"], {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 8
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-        styleId: "2605636097",
-        css: "body{font-family:'Roboto',sans-serif;margin:0px;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9tbS9kZXYvd3d3Lm1heWVyLnB1Yi9jb21wb25lbnRzL0hlYWQvSGVhZC5qc3giXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBUXVCLEFBR3dDLGdDQUN0QixXQUNaIiwiZmlsZSI6Ii9Vc2Vycy9tbS9kZXYvd3d3Lm1heWVyLnB1Yi9jb21wb25lbnRzL0hlYWQvSGVhZC5qc3giLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QgZnJvbSAncmVhY3QnXG5pbXBvcnQgTmV4dEhlYWQgZnJvbSAnbmV4dC9oZWFkJ1xuaW1wb3J0IFByb3BUeXBlcyBmcm9tICdwcm9wLXR5cGVzJ1xuXG5jbGFzcyBIZWFkIGV4dGVuZHMgUmVhY3QuQ29tcG9uZW50IHtcblx0cmVuZGVyKCkge1xuXHRcdHJldHVybiAoXG5cdFx0XHQ8ZGl2PlxuXHRcdFx0XHQ8c3R5bGUganN4IGdsb2JhbD57YFxuXHRcdFx0XHRcdGJvZHkge1xuXHRcdFx0XHRcdFx0Zm9udC1mYW1pbHk6ICdSb2JvdG8nLCBzYW5zLXNlcmlmO1xuXHRcdFx0XHRcdFx0bWFyZ2luOiAwcHg7XG5cdFx0XHRcdFx0fVxuXHRcdFx0XHRgfTwvc3R5bGU+XG5cdFx0XHRcdDxOZXh0SGVhZD5cblx0XHRcdFx0XHQ8dGl0bGU+e3RoaXMucHJvcHMudGl0bGV9PC90aXRsZT5cblx0XHRcdFx0XHQ8bWV0YSBjaGFyU2V0PSd1dGYtOCcvPlxuXHRcdFx0XHRcdDxtZXRhIG5hbWU9J3ZpZXdwb3J0JyBjb250ZW50PSdpbml0aWFsLXNjYWxlPTEuMCwgd2lkdGg9ZGV2aWNlLXdpZHRoJy8+XG5cdFx0XHRcdFx0PGxpbmsgaHJlZj0naHR0cHM6Ly9mb250cy5nb29nbGVhcGlzLmNvbS9jc3M/ZmFtaWx5PVJvYm90bzozMDAnIHJlbD0nc3R5bGVzaGVldCcvPlxuXHRcdFx0XHQ8L05leHRIZWFkPlxuXHRcdFx0PC9kaXY+XG5cdFx0KVxuXHR9XG59XG5cbkhlYWQucHJvcFR5cGVzID0ge1xuXHR0aXRsZTogUHJvcFR5cGVzLnN0cmluZy5pc1JlcXVpcmVkXG59O1xuXG5leHBvcnQgZGVmYXVsdCBIZWFkIl19 */\n/*@ sourceURL=/Users/mm/dev/www.mayer.pub/components/Head/Head.jsx */",
+        styleId: "2228651484",
+        css: "body{font-family:'Roboto',sans-serif;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9tbS9kZXYvd3d3Lm1heWVyLnB1Yi9jb21wb25lbnRzL0hlYWQvSGVhZC5qc3giXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBUXVCLEFBR3dDLGdDQUNsQyIsImZpbGUiOiIvVXNlcnMvbW0vZGV2L3d3dy5tYXllci5wdWIvY29tcG9uZW50cy9IZWFkL0hlYWQuanN4Iiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0LCB7RnJhZ21lbnR9IGZyb20gJ3JlYWN0J1xuaW1wb3J0IE5leHRIZWFkIGZyb20gJ25leHQvaGVhZCdcbmltcG9ydCBQcm9wVHlwZXMgZnJvbSAncHJvcC10eXBlcydcblxuY2xhc3MgSGVhZCBleHRlbmRzIFJlYWN0LkNvbXBvbmVudCB7XG5cdHJlbmRlcigpIHtcblx0XHRyZXR1cm4gKFxuXHRcdFx0PEZyYWdtZW50PlxuXHRcdFx0XHQ8c3R5bGUganN4IGdsb2JhbD57YFxuXHRcdFx0XHRcdGJvZHkge1xuXHRcdFx0XHRcdFx0Zm9udC1mYW1pbHk6ICdSb2JvdG8nLCBzYW5zLXNlcmlmO1xuXHRcdFx0XHRcdH1cblx0XHRcdFx0YH08L3N0eWxlPlxuXHRcdFx0XHQ8TmV4dEhlYWQ+XG5cdFx0XHRcdFx0PHRpdGxlPnt0aGlzLnByb3BzLnRpdGxlfTwvdGl0bGU+XG5cdFx0XHRcdFx0PG1ldGEgY2hhclNldD0ndXRmLTgnLz5cblx0XHRcdFx0XHQ8bWV0YSBuYW1lPSd2aWV3cG9ydCcgY29udGVudD0naW5pdGlhbC1zY2FsZT0xLjAsIHdpZHRoPWRldmljZS13aWR0aCcvPlxuXHRcdFx0XHRcdDxsaW5rIGhyZWY9J2h0dHBzOi8vZm9udHMuZ29vZ2xlYXBpcy5jb20vY3NzP2ZhbWlseT1Sb2JvdG86MzAwJyByZWw9J3N0eWxlc2hlZXQnLz5cblx0XHRcdFx0PC9OZXh0SGVhZD5cblx0XHRcdDwvRnJhZ21lbnQ+XG5cdFx0KVxuXHR9XG59XG5cbkhlYWQucHJvcFR5cGVzID0ge1xuXHR0aXRsZTogUHJvcFR5cGVzLnN0cmluZ1xufTtcblxuZXhwb3J0IGRlZmF1bHQgSGVhZCJdfQ== */\n/*@ sourceURL=/Users/mm/dev/www.mayer.pub/components/Head/Head.jsx */",
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_2___default.a, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 14
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("title", {
+        className: "jsx-2228651484",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 15
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("title", {
-        className: "jsx-2605636097",
+      }, this.props.title), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
+        charSet: "utf-8",
+        className: "jsx-2228651484",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 16
         },
         __self: this
-      }, this.props.title), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
-        charSet: "utf-8",
-        className: "jsx-2605636097",
+      }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
+        name: "viewport",
+        content: "initial-scale=1.0, width=device-width",
+        className: "jsx-2228651484",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 17
         },
         __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
-        name: "viewport",
-        content: "initial-scale=1.0, width=device-width",
-        className: "jsx-2605636097",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 18
-        },
-        __self: this
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("link", {
         href: "https://fonts.googleapis.com/css?family=Roboto:300",
         rel: "stylesheet",
-        className: "jsx-2605636097",
+        className: "jsx-2228651484",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 19
+          lineNumber: 18
         },
         __self: this
       })));
@@ -114,11 +113,11 @@ function (_React$Component) {
 }(react__WEBPACK_IMPORTED_MODULE_1___default.a.Component);
 
 Head.propTypes = {
-  title: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.string.isRequired
+  title: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.string
 };
 /* harmony default export */ __webpack_exports__["default"] = (Head);
 
 /***/ })
 
 })
-//# sourceMappingURL=index.js.c91f0e9f783592b915b9.hot-update.js.map
+//# sourceMappingURL=index.js.4f44182c6de6609feb46.hot-update.js.map
