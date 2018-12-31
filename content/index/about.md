@@ -4,6 +4,6 @@ I started learning C in 2001 and continued with PHP, HTML and CSS. The first maj
 
 I went through the stages of a full-stack developer until I concentrated on fully automated development workflows and continuously integrated and deployed cloud-native systems. I enjoy learning new frameworks, libraries, programming philosophies and concepts and love to get feedback to constantly improve. This experience and a quick grasp allows a variety of uses for my skills.
 
-For some time now I have been following the premise the [20 hour rule of Josh Kaufmann](https://www.youtube.com/watch?v=5MgBikgcWnY), which, in my opinion, is a great way of putting pragmatism into practise and bringing me to my current situation.
+For some time now I have been following the premise the [20 hour rule of Josh Kaufman](https://www.youtube.com/watch?v=5MgBikgcWnY), which, in my opinion, is a great way of putting pragmatism into practise and bringing me to my current situation.
 
 My interests primarily lie in building applications for the web. Technically, I focus on Golang, Java or PHP for the backend or desktop part and React (ES5/6) for frontend.
