@@ -1,15 +1,14 @@
-import React from 'react'
+import React, {Fragment} from 'react'
 import NextHead from 'next/head'
 import PropTypes from 'prop-types'
 
 class Head extends React.Component {
 	render() {
 		return (
-			<div>
+			<Fragment>
 				<style jsx global>{`
 					body {
 						font-family: 'Roboto', sans-serif;
-						margin: 0;
 					}
 				`}</style>
 				<NextHead>
@@ -18,13 +17,13 @@ class Head extends React.Component {
 					<meta name='viewport' content='initial-scale=1.0, width=device-width'/>
 					<link href='https://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet'/>
 				</NextHead>
-			</div>
+			</Fragment>
 		)
 	}
 }
 
 Head.propTypes = {
-	title: PropTypes.string.isRequired
+	title: PropTypes.string
 };
 
 export default Head

@@ -14,8 +14,10 @@
 	},
 	"dependencies": {
 		"next": "^7.0.2",
+		"prop-types": "latest",
+		"raw-loader": "^1.0.0",
 		"react": "^16.7.0",
 		"react-dom": "^16.7.0",
-		"prop-types": "latest"
+		"react-markdown": "^4.0.4"
 	}
 }

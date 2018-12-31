@@ -1,5 +1,9 @@
 module.exports = {
-	// some configuration
-	//assetPrefix: process.env.NODE_ENV === 'production' ? '/www.mayer.pub' : '',
-	// another configuration
-}
+	webpack: (config) => {
+		config.module.rules.push({
+			test: /\.md$/,
+			use: "raw-loader"
+		});
+		return config;
+	},
+};

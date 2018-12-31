@@ -1,15 +1,11 @@
-import React from "react"
+import React, {Fragment} from "react";
+import ReactMarkdown from "react-markdown";
 import Head from "../components/Head/Head";
+import About from "../md/index/about.md";
 
-class Index extends React.Component {
-	render() {
-		return (
-			<div>
-				<Head title="Matthäus Mayer"/>
-				<div>Welcome</div>
-			</div>
-		)
-	}
-}
-
-export default Index
+export default () => (
+	<Fragment>
+		<Head title="Matthäus Mayer"/>
+		<ReactMarkdown source={About}/>
+	</Fragment>
+)
