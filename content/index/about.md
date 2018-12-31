@@ -7,3 +7,5 @@ I went through the stages of a full-stack developer until I concentrated on full
 For some time now I have been following the premise of [Josh Kaufman's 20 hour rule](https://www.youtube.com/watch?v=5MgBikgcWnY), which, in my opinion, is a great way of putting pragmatism into practise and bringing me to my current situation.
 
 My interests primarily lie in building applications for the web. Technically, I focus on Golang, Java or PHP for the backend or desktop part and React (ES5/6) for frontend.
+
+Contact via twitter @theMattCode or e-mail matthaeus@mayer.pub.
