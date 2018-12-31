@@ -119,10 +119,10 @@ Head.propTypes = {
 
 /***/ }),
 
-/***/ "./md/index/about.md":
-/*!***************************!*\
-  !*** ./md/index/about.md ***!
-  \***************************/
+/***/ "./content/index/about.md":
+/*!********************************!*\
+  !*** ./content/index/about.md ***!
+  \********************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -16084,8 +16084,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_markdown__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-markdown */ "./node_modules/react-markdown/lib/react-markdown.js");
 /* harmony import */ var react_markdown__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_markdown__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _components_Head_Head__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Head/Head */ "./components/Head/Head.jsx");
-/* harmony import */ var _md_index_about_md__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../md/index/about.md */ "./md/index/about.md");
-/* harmony import */ var _md_index_about_md__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_md_index_about_md__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _content_index_about_md__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../content/index/about.md */ "./content/index/about.md");
+/* harmony import */ var _content_index_about_md__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_content_index_about_md__WEBPACK_IMPORTED_MODULE_3__);
 var _jsxFileName = "/Users/mm/dev/www.mayer.pub/pages/index.js";
 
 
@@ -16106,7 +16106,7 @@ var _jsxFileName = "/Users/mm/dev/www.mayer.pub/pages/index.js";
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_markdown__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    source: _md_index_about_md__WEBPACK_IMPORTED_MODULE_3___default.a,
+    source: _content_index_about_md__WEBPACK_IMPORTED_MODULE_3___default.a,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 9
