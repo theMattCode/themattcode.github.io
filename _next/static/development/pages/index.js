@@ -16079,37 +16079,45 @@ function extend() {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_markdown__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-markdown */ "./node_modules/react-markdown/lib/react-markdown.js");
-/* harmony import */ var react_markdown__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_markdown__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _components_Head_Head__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Head/Head */ "./components/Head/Head.jsx");
-/* harmony import */ var _content_index_about_md__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../content/index/about.md */ "./content/index/about.md");
-/* harmony import */ var _content_index_about_md__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_content_index_about_md__WEBPACK_IMPORTED_MODULE_3__);
+/* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-jsx/style */ "./node_modules/styled-jsx/style.js");
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_markdown__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-markdown */ "./node_modules/react-markdown/lib/react-markdown.js");
+/* harmony import */ var react_markdown__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_markdown__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _components_Head_Head__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Head/Head */ "./components/Head/Head.jsx");
+/* harmony import */ var _content_index_about_md__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../content/index/about.md */ "./content/index/about.md");
+/* harmony import */ var _content_index_about_md__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_content_index_about_md__WEBPACK_IMPORTED_MODULE_4__);
 var _jsxFileName = "/Users/mm/dev/www.mayer.pub/pages/index.js";
 
 
 
 
+
 /* harmony default export */ __webpack_exports__["default"] = (function () {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0__["Fragment"], {
+  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "jsx-1623287180" + " " + "container",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 7
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Head_Head__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_Head_Head__WEBPACK_IMPORTED_MODULE_3__["default"], {
     title: "Matth\xE4us Mayer",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 8
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_markdown__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    source: _content_index_about_md__WEBPACK_IMPORTED_MODULE_3___default.a,
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
+    styleId: "1623287180",
+    css: "@media only screen and (min-width:768px){.container.jsx-1623287180{margin:0 auto;max-width:768px;}}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9tbS9kZXYvd3d3Lm1heWVyLnB1Yi9wYWdlcy9pbmRleC5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFRYyxBQUlvQixjQUNFLGdCQUNqQiIsImZpbGUiOiIvVXNlcnMvbW0vZGV2L3d3dy5tYXllci5wdWIvcGFnZXMvaW5kZXguanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QgZnJvbSBcInJlYWN0XCI7XG5pbXBvcnQgUmVhY3RNYXJrZG93biBmcm9tIFwicmVhY3QtbWFya2Rvd25cIjtcbmltcG9ydCBIZWFkIGZyb20gXCIuLi9jb21wb25lbnRzL0hlYWQvSGVhZFwiO1xuaW1wb3J0IEFib3V0IGZyb20gXCIuLi9jb250ZW50L2luZGV4L2Fib3V0Lm1kXCI7XG5cbmV4cG9ydCBkZWZhdWx0ICgpID0+IChcblx0PGRpdiBjbGFzc05hbWU9XCJjb250YWluZXJcIj5cblx0XHQ8SGVhZCB0aXRsZT1cIk1hdHRow6R1cyBNYXllclwiLz5cblx0XHQ8c3R5bGUganN4PntgXG5cdFx0XHRAbWVkaWEgb25seSBzY3JlZW4gYW5kIChtaW4td2lkdGg6IDc2OHB4KSB7XG5cdFx0XHRcdC5jb250YWluZXIge1xuXHRcdFx0XHRcdG1hcmdpbjogMCBhdXRvO1xuXHRcdFx0XHRcdG1heC13aWR0aDogNzY4cHg7XG5cdFx0XHRcdH1cblx0XHRcdH1cblx0XHRgfTwvc3R5bGU+XG5cdFx0PFJlYWN0TWFya2Rvd24gc291cmNlPXtBYm91dH0vPlxuXHQ8L2Rpdj5cbilcbiJdfQ== */\n/*@ sourceURL=/Users/mm/dev/www.mayer.pub/pages/index.js */",
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_markdown__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    source: _content_index_about_md__WEBPACK_IMPORTED_MODULE_4___default.a,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 17
     },
     __self: this
   }));
