@@ -1,3 +1,5 @@
+# About Me
+
 Hello! My name is Matthäus Mayer. I'm a full-stack developer and DevOps engineer based in southern Germany. I am extremely passionate about developing robust and modern applications. Overall, I'm an IT and technology enthusiast and love to live in a digitalized world. Currently, I start with contracting and freelancing beside my day job to gain experience in this field and to boot up the business.
 
 I started learning C in 2001 and continued with PHP, HTML and CSS. The first major completed project was an asset management web application in 2003 while I completed my apprenticeship at Hewlett-Packard. Since then, I have studied Business Informatics up to my Master's degree and have been employed as a software developer and DevOps engineer.
@@ -8,4 +10,11 @@ For some time now I have been following the premise of [Josh Kaufman's 20 hour r
 
 My interests primarily lie in building applications for the web. Technically, I focus on Golang, Java or PHP for the backend or desktop part and React (ES5/6) for frontend.
 
-Contact via twitter @theMattCode or e-mail matthaeus@mayer.pub.
+# Contact & Social Media
+
+Please check in via:
+ * Twitter: [@theMattCode](https://twitter.com/theMattCode)
+ * E-Mail: matthaeus@mayer.pub
+ * Github: [theMattCode](https://github.com/theMattCode)
+ * [LinkedIn](https://www.linkedin.com/in/matthäus-mayer-714272148/)
+
