@@ -16,9 +16,9 @@ Most of the time I work in IntelliJ IDEA and with the bash command line with iTe
 
 ## Workflow
 
-I organize my tasks and micro management in a kanban-like approach with [Trello](https://trello.com) and follow the [Inbox Zero](https://youtu.be/z9UjeTMb3Yk) principle.
+I organize my tasks in a kanban-like approach with [Trello](https://trello.com) and follow the [Inbox Zero](https://youtu.be/z9UjeTMb3Yk) principle. I try to limit micromanagement to one day, but set priorities in a long-term roadmap.
 
-For some time now I have been following the premise of [Josh Kaufman's 20 hour rule](https://www.youtube.com/watch?v=5MgBikgcWnY), which, in my opinion, is a great way of putting pragmatism into practise and bringing me to my current situation. In addition, this opens up the possibility of solving problems and improving their goals and tasks.
+For some time now I have been following the premise of [Josh Kaufman's 20 hour rule](https://www.youtube.com/watch?v=5MgBikgcWnY), which, in my opinion, is a great way of putting pragmatism into practise and bringing me to my current situation. In addition, this opens up the possibility of solving problems and iteratively improving whatever comes out.
 
 ## Contact & Social Media
 
