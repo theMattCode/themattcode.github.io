@@ -8,13 +8,12 @@
 		"dev": "next",
 		"build": "next build",
 		"start": "next start",
-		"export": "next export && cp -R resources/* out/",
+		"export": "next export",
 		"deploy-gh-pages": "gh-pages --dotfiles -d out",
 		"deploy": "yarn build && yarn export && yarn deploy-gh-pages"
 	},
 	"dependencies": {
 		"next": "^7.0.2",
-		"prop-types": "latest",
 		"raw-loader": "^1.0.0",
 		"react": "^16.7.0",
 		"react-dom": "^16.7.0",

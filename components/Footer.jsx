@@ -1,21 +1,15 @@
 import React from "react";
 
-const styles = {
+const jss = {
 	footer: {
-		maxWidth: "768px"
-	},
-	footerContent: {
-		fontSize: "0.9rem"
+		borderTop: "1px solid lightgray"
 	}
 };
 
 export default () => (
-	<footer style={styles.footer}>
-		<div style={styles.footerContent}>
-			<p>
-				&copy; {(new Date()).getFullYear()} &lt;/&gt; with ♥ by <b>Matthäus Mayer</b>
-			</p>
+	<footer style={jss.footer}>
+		<div className="container">
+			<p>&copy; {(new Date()).getFullYear()} &lt;/&gt; with ♥ by <b>Matthäus Mayer</b></p>
 		</div>
-
 	</footer>
 )

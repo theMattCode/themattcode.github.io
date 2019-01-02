@@ -10,7 +10,9 @@ export default () => (
 		<Head title="Matthäus Mayer"/>
 		<Header/>
 		<main>
-			<ReactMarkdown source={About}/>
+			<div className="container">
+				<ReactMarkdown source={About}/>
+			</div>
 		</main>
 		<Footer/>
 	</Fragment>
