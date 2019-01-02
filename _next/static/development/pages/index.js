@@ -15,7 +15,12 @@ var _jsxFileName = "/Users/mm/dev/www.mayer.pub/components/Footer.jsx";
 
 var jss = {
   footer: {
-    borderTop: "1px solid lightgray"
+    borderTop: "1px solid lightgray",
+    fontSize: "0.9rem",
+    color: "black"
+  },
+  p: {
+    margin: "5px"
   }
 };
 /* harmony default export */ __webpack_exports__["default"] = (function () {
@@ -23,26 +28,34 @@ var jss = {
     style: jss.footer,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 15
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "container",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 16
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    style: jss.p,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 17
     },
     __self: this
-  }, "\xA9 ", new Date().getFullYear(), " </> with \u2665 by ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", {
+  }, "\xA9 ", new Date().getFullYear(), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "icon-embed2",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 18
+    },
+    __self: this
+  }), " with \u2665 by ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
     },
     __self: this
   }, "Matth\xE4us Mayer"))));
@@ -154,6 +167,9 @@ var jss = {
     display: "flex",
     justifyContent: "space-between"
   },
+  headerPara: {
+    margin: "5px"
+  },
   iconLink: {
     textDecoration: "none",
     color: "black"
@@ -164,39 +180,49 @@ var jss = {
     style: jss.header,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18
+      lineNumber: 20
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "container",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 21
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     style: jss.headerContent,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21
-    },
-    __self: this
-  }, "Matth\xE4us Mayer"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 22
     },
     __self: this
-  }, "menu"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    style: jss.headerPara,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 23
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "icon-embed2",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23
+    },
+    __self: this
+  }), " Matth\xE4us Mayer"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    style: jss.headerPara,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
+    },
+    __self: this
+  }, " "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    style: jss.headerPara,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -205,14 +231,14 @@ var jss = {
     target: "_blank",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24
+      lineNumber: 26
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     className: "icon-github",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25
+      lineNumber: 27
     },
     __self: this
   }))))));
