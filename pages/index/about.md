@@ -8,7 +8,7 @@ I started learning C in 2001 when I was 16 years old and continued with PHP, HTM
 
 I went through the stages of a full-stack developer from building desktop applications, backends and web frontends until I concentrated on fully automated development workflows and continuously integrated and deployed cloud-native systems. I enjoy learning new frameworks, libraries, programming philosophies and concepts and love to get feedback to constantly improve. This experience and a quick grasp allows a variety of uses for my skills.
 
-My interests primarily lie in building applications for the web. Technically, I focus on **Golang**, **Java** or PHP for the backend or desktop part and **React** (ES5/6) for frontend. In past and current projects I have great success with **Docker**, **Kubernetes** and **Infrastructure as Code**.
+Technically, I focus on **Golang**, **Java** or PHP for the backend or desktop part and **React** (ES5/6) for frontend.  In past and current projects I have great success with **Docker**, **Kubernetes** and **Infrastructure as Code** at the operations part.
 
 ## Tools
 
