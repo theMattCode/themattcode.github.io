@@ -1,9 +1,62 @@
 ((window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/index.js"],{
 
-/***/ "./components/Head/Head.jsx":
-/*!**********************************!*\
-  !*** ./components/Head/Head.jsx ***!
-  \**********************************/
+/***/ "./components/Footer.jsx":
+/*!*******************************!*\
+  !*** ./components/Footer.jsx ***!
+  \*******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _jsxFileName = "/Users/mm/dev/www.mayer.pub/components/Footer.jsx";
+
+var styles = {
+  footer: {
+    maxWidth: "768px"
+  },
+  footerContent: {
+    fontSize: "0.9rem"
+  }
+};
+/* harmony default export */ __webpack_exports__["default"] = (function () {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("footer", {
+    style: styles.footer,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    style: styles.footerContent,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: this
+  }, "\xA9 ", new Date().getFullYear(), " </> with \u2665 by ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    },
+    __self: this
+  }, "Matth\xE4us Mayer"))));
+});
+
+/***/ }),
+
+/***/ "./components/Head.jsx":
+/*!*****************************!*\
+  !*** ./components/Head.jsx ***!
+  \*****************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -17,7 +70,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_3__);
-var _jsxFileName = "/Users/mm/dev/www.mayer.pub/components/Head/Head.jsx";
+var _jsxFileName = "/Users/mm/dev/www.mayer.pub/components/Head.jsx";
 
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
@@ -63,46 +116,46 @@ function (_React$Component) {
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-        styleId: "2228651484",
-        css: "body{font-family:'Roboto',sans-serif;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9tbS9kZXYvd3d3Lm1heWVyLnB1Yi9jb21wb25lbnRzL0hlYWQvSGVhZC5qc3giXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBUXVCLEFBR3dDLGdDQUNsQyIsImZpbGUiOiIvVXNlcnMvbW0vZGV2L3d3dy5tYXllci5wdWIvY29tcG9uZW50cy9IZWFkL0hlYWQuanN4Iiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0LCB7RnJhZ21lbnR9IGZyb20gJ3JlYWN0J1xuaW1wb3J0IE5leHRIZWFkIGZyb20gJ25leHQvaGVhZCdcbmltcG9ydCBQcm9wVHlwZXMgZnJvbSAncHJvcC10eXBlcydcblxuY2xhc3MgSGVhZCBleHRlbmRzIFJlYWN0LkNvbXBvbmVudCB7XG5cdHJlbmRlcigpIHtcblx0XHRyZXR1cm4gKFxuXHRcdFx0PEZyYWdtZW50PlxuXHRcdFx0XHQ8c3R5bGUganN4IGdsb2JhbD57YFxuXHRcdFx0XHRcdGJvZHkge1xuXHRcdFx0XHRcdFx0Zm9udC1mYW1pbHk6ICdSb2JvdG8nLCBzYW5zLXNlcmlmO1xuXHRcdFx0XHRcdH1cblx0XHRcdFx0YH08L3N0eWxlPlxuXHRcdFx0XHQ8TmV4dEhlYWQ+XG5cdFx0XHRcdFx0PHRpdGxlPnt0aGlzLnByb3BzLnRpdGxlfTwvdGl0bGU+XG5cdFx0XHRcdFx0PG1ldGEgY2hhclNldD0ndXRmLTgnLz5cblx0XHRcdFx0XHQ8bWV0YSBuYW1lPSd2aWV3cG9ydCcgY29udGVudD0naW5pdGlhbC1zY2FsZT0xLjAsIHdpZHRoPWRldmljZS13aWR0aCcvPlxuXHRcdFx0XHRcdDxsaW5rIGhyZWY9J2h0dHBzOi8vZm9udHMuZ29vZ2xlYXBpcy5jb20vY3NzP2ZhbWlseT1Sb2JvdG86MzAwJyByZWw9J3N0eWxlc2hlZXQnLz5cblx0XHRcdFx0PC9OZXh0SGVhZD5cblx0XHRcdDwvRnJhZ21lbnQ+XG5cdFx0KVxuXHR9XG59XG5cbkhlYWQucHJvcFR5cGVzID0ge1xuXHR0aXRsZTogUHJvcFR5cGVzLnN0cmluZ1xufTtcblxuZXhwb3J0IGRlZmF1bHQgSGVhZCJdfQ== */\n/*@ sourceURL=/Users/mm/dev/www.mayer.pub/components/Head/Head.jsx */",
+        styleId: "3716600604",
+        css: "body{font-family:'Roboto',sans-serif;font-size:1.15rem;margin:15px;}main{min-height:100px;max-width:768px;-webkit-flex:1;-ms-flex:1;flex:1;}div#__next{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;margin:0 auto;min-height:100vh;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}p{line-height:1.6rem;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9tbS9kZXYvd3d3Lm1heWVyLnB1Yi9jb21wb25lbnRzL0hlYWQuanN4Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQVF1QixBQUd3QyxBQUtoQixBQUtKLEFBT00saUJBWEgsRUFZakIsYUFqQm1CLENBTVgsaUJBTEssWUFDYixJQUtBLFFBR2UsY0FDRyxpQkFDSyw4RUFDSCw2RkFDcEIiLCJmaWxlIjoiL1VzZXJzL21tL2Rldi93d3cubWF5ZXIucHViL2NvbXBvbmVudHMvSGVhZC5qc3giLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QsIHtGcmFnbWVudH0gZnJvbSAncmVhY3QnXG5pbXBvcnQgTmV4dEhlYWQgZnJvbSAnbmV4dC9oZWFkJ1xuaW1wb3J0IFByb3BUeXBlcyBmcm9tICdwcm9wLXR5cGVzJ1xuXG5jbGFzcyBIZWFkIGV4dGVuZHMgUmVhY3QuQ29tcG9uZW50IHtcblx0cmVuZGVyKCkge1xuXHRcdHJldHVybiAoXG5cdFx0XHQ8RnJhZ21lbnQ+XG5cdFx0XHRcdDxzdHlsZSBqc3ggZ2xvYmFsPntgXG5cdFx0XHRcdFx0Ym9keSB7XG5cdFx0XHRcdFx0XHRmb250LWZhbWlseTogJ1JvYm90bycsIHNhbnMtc2VyaWY7XG5cdFx0XHRcdFx0XHRmb250LXNpemU6IDEuMTVyZW07XG5cdFx0XHRcdFx0XHRtYXJnaW46IDE1cHg7XG5cdFx0XHRcdFx0fVxuXHRcdFx0XHRcdG1haW4ge1xuXHRcdFx0XHRcdFx0bWluLWhlaWdodDogMTAwcHg7XG5cdFx0XHRcdFx0XHRtYXgtd2lkdGg6IDc2OHB4O1xuXHRcdFx0XHRcdFx0ZmxleDogMTtcblx0XHRcdFx0XHR9XG5cdFx0XHRcdFx0ZGl2I19fbmV4dCB7XG5cdFx0XHRcdFx0XHRkaXNwbGF5OiBmbGV4O1xuXHRcdFx0XHRcdFx0bWFyZ2luOiAwIGF1dG87XG5cdFx0XHRcdFx0XHRtaW4taGVpZ2h0OiAxMDB2aDtcblx0XHRcdFx0XHRcdGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XG5cdFx0XHRcdFx0XHRhbGlnbi1pdGVtczogY2VudGVyO1xuXHRcdFx0XHRcdH1cblx0XHRcdFx0XHRwIHtcblx0XHRcdFx0XHRcdGxpbmUtaGVpZ2h0OiAxLjZyZW07XG5cdFx0XHRcdFx0fVxuXHRcdFx0XHRgfTwvc3R5bGU+XG5cdFx0XHRcdDxOZXh0SGVhZD5cblx0XHRcdFx0XHQ8dGl0bGU+e3RoaXMucHJvcHMudGl0bGV9PC90aXRsZT5cblx0XHRcdFx0XHQ8bWV0YSBjaGFyU2V0PSd1dGYtOCcvPlxuXHRcdFx0XHRcdDxtZXRhIG5hbWU9J3ZpZXdwb3J0JyBjb250ZW50PSdpbml0aWFsLXNjYWxlPTEuMCwgd2lkdGg9ZGV2aWNlLXdpZHRoJy8+XG5cdFx0XHRcdFx0PGxpbmsgaHJlZj0naHR0cHM6Ly9mb250cy5nb29nbGVhcGlzLmNvbS9jc3M/ZmFtaWx5PVJvYm90bzozMDAnIHJlbD0nc3R5bGVzaGVldCcvPlxuXHRcdFx0XHQ8L05leHRIZWFkPlxuXHRcdFx0PC9GcmFnbWVudD5cblx0XHQpXG5cdH1cbn1cblxuSGVhZC5wcm9wVHlwZXMgPSB7XG5cdHRpdGxlOiBQcm9wVHlwZXMuc3RyaW5nXG59O1xuXG5leHBvcnQgZGVmYXVsdCBIZWFkIl19 */\n/*@ sourceURL=/Users/mm/dev/www.mayer.pub/components/Head.jsx */",
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_2___default.a, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 14
+          lineNumber: 31
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("title", {
-        className: "jsx-2228651484",
+        className: "jsx-3716600604",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 15
+          lineNumber: 32
         },
         __self: this
       }, this.props.title), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
         charSet: "utf-8",
-        className: "jsx-2228651484",
+        className: "jsx-3716600604",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 16
+          lineNumber: 33
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
         name: "viewport",
         content: "initial-scale=1.0, width=device-width",
-        className: "jsx-2228651484",
+        className: "jsx-3716600604",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 17
+          lineNumber: 34
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("link", {
         href: "https://fonts.googleapis.com/css?family=Roboto:300",
         rel: "stylesheet",
-        className: "jsx-2228651484",
+        className: "jsx-3716600604",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 18
+          lineNumber: 35
         },
         __self: this
       })));
@@ -116,17 +169,6 @@ Head.propTypes = {
   title: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.string
 };
 /* harmony default export */ __webpack_exports__["default"] = (Head);
-
-/***/ }),
-
-/***/ "./content/index/about.md":
-/*!********************************!*\
-  !*** ./content/index/about.md ***!
-  \********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "Hello! My name is Matthäus Mayer. I'm a full-stack developer and DevOps engineer based in southern Germany. I am extremely passionate about developing robust and modern applications. Overall, I'm an IT and technology enthusiast and love to live in a digitalized world. Currently, I start with contracting and freelancing beside my day job to gain experience in this field and to boot up the business.\n\nI started learning C in 2001 and continued with PHP, HTML and CSS. The first major completed project was an asset management web application in 2003 while I completed my apprenticeship at Hewlett-Packard. Since then, I have studied Business Informatics up to my Master's degree and have been employed as a software developer and DevOps engineer.\n\nI went through the stages of a full-stack developer until I concentrated on fully automated development workflows and continuously integrated and deployed cloud-native systems. I enjoy learning new frameworks, libraries, programming philosophies and concepts and love to get feedback to constantly improve. This experience and a quick grasp allows a variety of uses for my skills.\n\nFor some time now I have been following the premise of [Josh Kaufman's 20 hour rule](https://www.youtube.com/watch?v=5MgBikgcWnY), which, in my opinion, is a great way of putting pragmatism into practise and bringing me to my current situation.\n\nMy interests primarily lie in building applications for the web. Technically, I focus on Golang, Java or PHP for the backend or desktop part and React (ES5/6) for frontend.\n\nContact via twitter @theMattCode or e-mail matthaeus@mayer.pub."
 
 /***/ }),
 
@@ -16079,15 +16121,14 @@ function extend() {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-jsx/style */ "./node_modules/styled-jsx/style.js");
-/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react_markdown__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-markdown */ "./node_modules/react-markdown/lib/react-markdown.js");
-/* harmony import */ var react_markdown__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_markdown__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _components_Head_Head__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Head/Head */ "./components/Head/Head.jsx");
-/* harmony import */ var _content_index_about_md__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../content/index/about.md */ "./content/index/about.md");
-/* harmony import */ var _content_index_about_md__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_content_index_about_md__WEBPACK_IMPORTED_MODULE_4__);
+/* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_markdown__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-markdown */ "./node_modules/react-markdown/lib/react-markdown.js");
+/* harmony import */ var react_markdown__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_markdown__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _components_Head__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Head */ "./components/Head.jsx");
+/* harmony import */ var _components_Footer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Footer */ "./components/Footer.jsx");
+/* harmony import */ var _index_about_md__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./index/about.md */ "./pages/index/about.md");
+/* harmony import */ var _index_about_md__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_index_about_md__WEBPACK_IMPORTED_MODULE_4__);
 var _jsxFileName = "/Users/mm/dev/www.mayer.pub/pages/index.js";
 
 
@@ -16095,29 +16136,36 @@ var _jsxFileName = "/Users/mm/dev/www.mayer.pub/pages/index.js";
 
 
 /* harmony default export */ __webpack_exports__["default"] = (function () {
-  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "jsx-1623287180" + " " + "container",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_Head_Head__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    title: "Matth\xE4us Mayer",
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0__["Fragment"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 8
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    styleId: "1623287180",
-    css: "@media only screen and (min-width:768px){.container.jsx-1623287180{margin:0 auto;max-width:768px;}}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9tbS9kZXYvd3d3Lm1heWVyLnB1Yi9wYWdlcy9pbmRleC5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFRYyxBQUlvQixjQUNFLGdCQUNqQiIsImZpbGUiOiIvVXNlcnMvbW0vZGV2L3d3dy5tYXllci5wdWIvcGFnZXMvaW5kZXguanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QgZnJvbSBcInJlYWN0XCI7XG5pbXBvcnQgUmVhY3RNYXJrZG93biBmcm9tIFwicmVhY3QtbWFya2Rvd25cIjtcbmltcG9ydCBIZWFkIGZyb20gXCIuLi9jb21wb25lbnRzL0hlYWQvSGVhZFwiO1xuaW1wb3J0IEFib3V0IGZyb20gXCIuLi9jb250ZW50L2luZGV4L2Fib3V0Lm1kXCI7XG5cbmV4cG9ydCBkZWZhdWx0ICgpID0+IChcblx0PGRpdiBjbGFzc05hbWU9XCJjb250YWluZXJcIj5cblx0XHQ8SGVhZCB0aXRsZT1cIk1hdHRow6R1cyBNYXllclwiLz5cblx0XHQ8c3R5bGUganN4PntgXG5cdFx0XHRAbWVkaWEgb25seSBzY3JlZW4gYW5kIChtaW4td2lkdGg6IDc2OHB4KSB7XG5cdFx0XHRcdC5jb250YWluZXIge1xuXHRcdFx0XHRcdG1hcmdpbjogMCBhdXRvO1xuXHRcdFx0XHRcdG1heC13aWR0aDogNzY4cHg7XG5cdFx0XHRcdH1cblx0XHRcdH1cblx0XHRgfTwvc3R5bGU+XG5cdFx0PFJlYWN0TWFya2Rvd24gc291cmNlPXtBYm91dH0vPlxuXHQ8L2Rpdj5cbilcbiJdfQ== */\n/*@ sourceURL=/Users/mm/dev/www.mayer.pub/pages/index.js */",
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_markdown__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    source: _content_index_about_md__WEBPACK_IMPORTED_MODULE_4___default.a,
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Head__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    title: "Matth\xE4us Mayer",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17
+      lineNumber: 9
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("main", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_markdown__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    source: _index_about_md__WEBPACK_IMPORTED_MODULE_4___default.a,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Footer__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
     },
     __self: this
   }));
@@ -16141,6 +16189,17 @@ var _jsxFileName = "/Users/mm/dev/www.mayer.pub/pages/index.js";
     })(typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__.default : (module.exports.default || module.exports), "/")
   
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../node_modules/webpack/buildin/harmony-module.js */ "./node_modules/webpack/buildin/harmony-module.js")(module)))
+
+/***/ }),
+
+/***/ "./pages/index/about.md":
+/*!******************************!*\
+  !*** ./pages/index/about.md ***!
+  \******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "# About Me\n\nHello! My name is Matthäus Mayer. I'm a full-stack developer and DevOps engineer based in southern Germany. I am extremely passionate about developing robust and modern applications. Overall, I'm an IT and technology enthusiast and love to live in a digitalized world. Currently, in 2019, I start with contracting and freelancing beside my day job to gain experience in this field and to boot up the business.\n\nI started learning C in 2001 and continued with PHP, HTML and CSS. The first major completed project was an asset management web application in 2003 while I completed my apprenticeship at Hewlett-Packard. Since then, I have studied Business Informatics up to my Master's degree and have been employed as a software developer and DevOps engineer.\n\nI went through the stages of a full-stack developer until I concentrated on fully automated development workflows and continuously integrated and deployed cloud-native systems. I enjoy learning new frameworks, libraries, programming philosophies and concepts and love to get feedback to constantly improve. This experience and a quick grasp allows a variety of uses for my skills.\n\nFor some time now I have been following the premise of [Josh Kaufman's 20 hour rule](https://www.youtube.com/watch?v=5MgBikgcWnY), which, in my opinion, is a great way of putting pragmatism into practise and bringing me to my current situation.\n\nMy interests primarily lie in building applications for the web. Technically, I focus on Golang, Java or PHP for the backend or desktop part and React (ES5/6) for frontend.\n\n# Contact & Social Media\n\nPlease check in via:\n * Twitter: [@theMattCode](https://twitter.com/theMattCode)\n * E-Mail: matthaeus@mayer.pub\n * Github: [theMattCode](https://github.com/theMattCode)\n * [LinkedIn](https://www.linkedin.com/in/matthäus-mayer-714272148/)\n\n"
 
 /***/ }),
 
