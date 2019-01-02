@@ -8,19 +8,21 @@ const jss = {
 		display: "flex",
 		justifyContent: "space-between"
 	},
+	headerPara: {
+		margin: "5px"
+	},
 	iconLink: {
 		textDecoration: "none",
-		color: "black",
-
+		color: "black"
 	}
 };
 export default () => (
 	<header style={jss.header}>
 		<div className="container">
 			<div style={jss.headerContent}>
-				<p>Matthäus Mayer</p>
-				<p>menu</p>
-				<p>
+				<p style={jss.headerPara}><span className="icon-embed2"/> Matthäus Mayer</p>
+				<p style={jss.headerPara}> </p>
+				<p style={jss.headerPara}>
 					<a style={jss.iconLink} href="https://github.com/theMattCode" target="_blank">
 						<span className="icon-github"/>
 					</a>
