@@ -14,6 +14,7 @@ export default (props) => (
 				max-width: 768px;
 				display: flex;
 				flex-direction: column;
+				padding: 8px;
 				margin: 0 auto;
 			}
 		`}</style>
