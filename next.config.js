@@ -8,6 +8,7 @@ filesToCopy.set('build/CNAME', 'CNAME');
 filesToCopy.set('build/.nojekyll', '.nojekyll');
 filesToCopy.set('build/_config.yml', '_config.yml');
 filesToCopy.set('static/icons.css', 'static/icons.css');
+filesToCopy.set('static/gs.js', 'static/ga.js');
 
 module.exports = {
 	exportPathMap: async function (defaultPathMap, {dev, dir, outDir, distDir, buildId}) {
