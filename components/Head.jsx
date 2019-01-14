@@ -17,6 +17,12 @@ export default (props) => (
 				padding: 8px;
 				margin: 0 auto;
 			}
+			h1 {
+				margin-block-end: 0.4em;
+			}
+			h2 {
+				margin-block-end: 0.2em;
+			}
 			p {
 				margin-block-start: 0.6em;
 				margin-block-end: 0.6em;
