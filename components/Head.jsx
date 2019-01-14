@@ -17,8 +17,22 @@ export default (props) => (
 				padding: 8px;
 				margin: 0 auto;
 			}
+			p {
+				margin-block-start: 0.6em;
+				margin-block-end: 0.6em;
+			}
+			ul {
+				margin-block-start: 0.6em;
+				margin-block-end: 0.6em;
+			}
+			li {
+			 	font-size: 1rem;
+			}
 		`}</style>
 		<NextHead>
+			<script async src="https://www.googletagmanager.com/gtag/js?id=UA-132344829-1" />
+			<script src="/static/ga.js"/>
+
 			<title>{props.title}</title>
 			<meta charSet='utf-8'/>
 			<meta name='viewport' content='initial-scale=1.0, width=device-width'/>
