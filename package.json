@@ -18,5 +18,8 @@
 		"react": "^16.7.0",
 		"react-dom": "^16.7.0",
 		"react-markdown": "^4.0.4"
+	},
+	"devDependencies": {
+		"gh-pages": "^2.0.1"
 	}
 }

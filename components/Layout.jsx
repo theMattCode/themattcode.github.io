@@ -10,7 +10,7 @@ export default (props) => (
 		<Header />
 		<main>
 			<div className="container">
-				<ReactMarkdown source={props.content} />
+				<ReactMarkdown escapeHtml={false} source={props.content} />
 			</div>
 		</main>
 		<Footer />

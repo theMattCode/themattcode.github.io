@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 import Layout from "../components/Layout";
-import Index from "./index.md";
+import Aboutme from "./aboutme.md";
 
 export default () => (
-	<Layout title="Matthäus Mayer" content={Index} />
+	<Layout title="Matthäus Mayer" content={Aboutme} />
 )

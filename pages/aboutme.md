@@ -24,7 +24,7 @@ For some time now I have been following the premise of [Josh Kaufman's 20 hour r
 
 Please check in via:
  * Twitter: [@theMattCode](https://twitter.com/theMattCode)
- * E-Mail: matthaeus@mayer.pub
+ * E-Mail: m19@mayer.pub
  * Github: [theMattCode](https://github.com/theMattCode)
  * [LinkedIn](https://www.linkedin.com/in/matthäus-mayer-714272148/)
 

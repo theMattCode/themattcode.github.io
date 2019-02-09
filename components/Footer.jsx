@@ -6,6 +6,13 @@ const jss = {
 		fontSize: "0.9rem",
 		color: "black",
 	},
+	footerContent: {
+		display: "flex",
+		justifyContent: "space-between"
+	},
+	link: {
+		textDecoration: "none"
+	},
 	p: {
 		margin: "5px"
 	}
@@ -14,9 +21,16 @@ const jss = {
 export default () => (
 	<footer style={jss.footer}>
 		<div className="container">
-			<p style={jss.p}>
-				&copy; {(new Date()).getFullYear()} <span className="icon-embed2"/> with ♥ by <b>Matthäus Mayer</b>
-			</p>
+			<div style={jss.footerContent}>
+				<p style={jss.p}>
+					&copy; {(new Date()).getFullYear()} <span className="icon-embed2" /> with ♥ by <b>Matthäus Mayer</b>
+				</p>
+				<p style={jss.p}>
+					<a style={jss.link} href="/impressum">Impressum</a>
+					&nbsp;
+					<a style={jss.link} href="/datenschutz">Datenschutz</a>
+				</p>
+			</div>
 		</div>
 	</footer>
 )
