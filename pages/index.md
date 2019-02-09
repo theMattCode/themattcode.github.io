@@ -1,14 +1,14 @@
 [English version](/aboutme)
 
-Hi! Mein Name ist Matthäus Mayer. Ich sehe mich selbst als Digital native und bin seit über 10 Jahren Full-Stack-Entwickler mit DevOps-Erfahrung aus Süddeutschland. Ich interessiere und beschäftige mich mit der Entwicklung robuster, moderner, skalierbarer und kundenorientierter Software. Ich bin ein begeisterter IT- und Technologie-Fan und lebe überaus gerne in einer digitalisierten Welt. Ich arbeite hauptberuflich bei Bergfreunde.de und nebenberuflich als Freiberufler. 
+Hi! Mein Name ist Matthäus Mayer. Ich sehe mich selbst als Digital native und bin seit über 10 Jahren Full-Stack-Entwickler mit DevOps-Erfahrung aus Süddeutschland. Ich interessiere und beschäftige mich mit der Entwicklung und dem Betrieb robuster, moderner, skalierbarer und kundenorientierter Software. Ich bin ein begeisterter IT- und Technologie-Fan und lebe überaus gerne in einer digitalisierten Welt. Ich arbeite hauptberuflich bei Bergfreunde.de und nebenberuflich als Freiberufler.
 
-2001 begann die Odysee mit der Sprache C und setzte die Reise mit PHP, HTML und CSS fort. Das erste größere Projekt ist während meiner Ausbildung bei Hewlett-Packard 2003 entstanden. Die Aufgabe war eine Web-Anwendung zum Asset-Management. Es folgte das Bachelor- und Master-Studium in Wirtschaftsinformatik und bin aktuell als Softwareentwickler und DevOps-Ingenieur angestellt.
+2001 begann die Entwickler-Reise mit der Sprache C und ging mit PHP, HTML und CSS weiter. Im Studium kam Java dazu und seit 2015 bin ich ein großer Fan von Golang und seit 2017 auch von React.
 
 ## Interessen
 
 Bis hin zum Full-Stack-Entwickler habe ich folgende Phasen durchlafen. Angefangen bei der Entwicklung von Desktop-Anwendungen, habe ich Backends und Web-Frontends, voll automatisierte Entwicklungs-, Test- und Build-Abläufe bis hin zu kontinuierlich integrierte Cloud-native Systeme implementiert. Ich lerne gerne neue Frameworks, Bibliotheken, Programmierphilosophien und Konzepte kennen und freue mich über jede Art von Feedback.
 
-Technisch habe ich am meisten Erfahrung mit **Golang**, **Java**, PHP und **React** (ES5/6). In vergangenen Projekten habe ich großen Erfolg mit **Docker**, **Kubernetes** und **Infrastructure as Code** und weiß deren Mehrwert zu schätzen.
+Technisch habe ich am meisten Erfahrung und Spass mit **Golang**, **Java**, PHP und **React** (ES5/6). In vergangenen und aktuell laufenden Projekten habe ich großen Erfolg und ebenso Spass mit **Docker** und **Kubernetes**, Cloud-Platformen wie **AWS** und GCP, Ansible und Terraform und  **Infrastructure as Code** im Allgemeinen.
 
 ## Werkzeug
 
