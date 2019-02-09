@@ -19,6 +19,13 @@ var jss = {
     fontSize: "0.9rem",
     color: "black"
   },
+  footerContent: {
+    display: "flex",
+    justifyContent: "space-between"
+  },
+  link: {
+    textDecoration: "none"
+  },
   p: {
     margin: "5px"
   }
@@ -28,37 +35,67 @@ var jss = {
     style: jss.footer,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 22
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "container",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16
+      lineNumber: 23
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    style: jss.footerContent,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     style: jss.p,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17
+      lineNumber: 25
     },
     __self: this
   }, "\xA9 ", new Date().getFullYear(), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     className: "icon-embed2",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18
+      lineNumber: 26
     },
     __self: this
   }), " with \u2665 by ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18
+      lineNumber: 26
     },
     __self: this
-  }, "Matth\xE4us Mayer"))));
+  }, "Matth\xE4us Mayer")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    style: jss.p,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    style: jss.link,
+    href: "/impressum",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29
+    },
+    __self: this
+  }, "Impressum"), "\xA0", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    style: jss.link,
+    href: "/datenschutz",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31
+    },
+    __self: this
+  }, "Datenschutz")))));
 });
 
 /***/ }),
@@ -90,8 +127,8 @@ var _jsxFileName = "/Users/mm/Desktop/projects/www.mayer.pub/components/Head.jsx
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    styleId: "1485752588",
-    css: "body{font-family:'Roboto',sans-serif;font-size:1.15rem;margin:0;line-height:1.6rem;}.container{max-width:768px;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;padding:8px;margin:0 auto;}h1{margin-block-end:0.4em;}h2{margin-block-end:0.2em;}p{margin-block-start:0.6em;margin-block-end:0.6em;}ul{margin-block-start:0.6em;margin-block-end:0.6em;}li{font-size:1rem;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9tbS9EZXNrdG9wL3Byb2plY3RzL3d3dy5tYXllci5wdWIvY29tcG9uZW50cy9IZWFkLmpzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFLcUIsQUFHc0MsQUFNakIsQUFPTyxBQUdBLEFBR0UsQUFJQSxBQUlULGVBQ2pCLENBckJjLE9BT2QsQUFHQSxFQUd3QixBQUlBLE9BdkJMLGdCQW9CbkIsQUFJQSxFQXZCVSxTQUNVLG1CQUNwQixZQUl1Qiw4RUFDVixZQUNFLGNBQ2YiLCJmaWxlIjoiL1VzZXJzL21tL0Rlc2t0b3AvcHJvamVjdHMvd3d3Lm1heWVyLnB1Yi9jb21wb25lbnRzL0hlYWQuanN4Iiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0LCB7RnJhZ21lbnR9IGZyb20gJ3JlYWN0J1xuaW1wb3J0IE5leHRIZWFkIGZyb20gJ25leHQvaGVhZCdcblxuZXhwb3J0IGRlZmF1bHQgKHByb3BzKSA9PiAoXG5cdDxGcmFnbWVudD5cblx0XHQ8c3R5bGUganN4IGdsb2JhbD57YFxuXHRcdFx0Ym9keSB7XG5cdFx0XHRcdGZvbnQtZmFtaWx5OiAnUm9ib3RvJywgc2Fucy1zZXJpZjtcblx0XHRcdFx0Zm9udC1zaXplOiAxLjE1cmVtO1xuXHRcdFx0XHRtYXJnaW46IDA7XG5cdFx0XHRcdGxpbmUtaGVpZ2h0OiAxLjZyZW07XG5cdFx0XHR9XG5cdFx0XHQuY29udGFpbmVyIHtcblx0XHRcdFx0bWF4LXdpZHRoOiA3NjhweDtcblx0XHRcdFx0ZGlzcGxheTogZmxleDtcblx0XHRcdFx0ZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcblx0XHRcdFx0cGFkZGluZzogOHB4O1xuXHRcdFx0XHRtYXJnaW46IDAgYXV0bztcblx0XHRcdH1cblx0XHRcdGgxIHtcblx0XHRcdFx0bWFyZ2luLWJsb2NrLWVuZDogMC40ZW07XG5cdFx0XHR9XG5cdFx0XHRoMiB7XG5cdFx0XHRcdG1hcmdpbi1ibG9jay1lbmQ6IDAuMmVtO1xuXHRcdFx0fVxuXHRcdFx0cCB7XG5cdFx0XHRcdG1hcmdpbi1ibG9jay1zdGFydDogMC42ZW07XG5cdFx0XHRcdG1hcmdpbi1ibG9jay1lbmQ6IDAuNmVtO1xuXHRcdFx0fVxuXHRcdFx0dWwge1xuXHRcdFx0XHRtYXJnaW4tYmxvY2stc3RhcnQ6IDAuNmVtO1xuXHRcdFx0XHRtYXJnaW4tYmxvY2stZW5kOiAwLjZlbTtcblx0XHRcdH1cblx0XHRcdGxpIHtcblx0XHRcdCBcdGZvbnQtc2l6ZTogMXJlbTtcblx0XHRcdH1cblx0XHRgfTwvc3R5bGU+XG5cdFx0PE5leHRIZWFkPlxuXHRcdFx0PHNjcmlwdCBhc3luYyBzcmM9XCJodHRwczovL3d3dy5nb29nbGV0YWdtYW5hZ2VyLmNvbS9ndGFnL2pzP2lkPVVBLTEzMjM0NDgyOS0xXCIgLz5cblx0XHRcdDxzY3JpcHQgc3JjPVwiL3N0YXRpYy9nYS5qc1wiLz5cblxuXHRcdFx0PHRpdGxlPntwcm9wcy50aXRsZX08L3RpdGxlPlxuXHRcdFx0PG1ldGEgY2hhclNldD0ndXRmLTgnLz5cblx0XHRcdDxtZXRhIG5hbWU9J3ZpZXdwb3J0JyBjb250ZW50PSdpbml0aWFsLXNjYWxlPTEuMCwgd2lkdGg9ZGV2aWNlLXdpZHRoJy8+XG5cdFx0XHQ8bGluayByZWw9J3N0eWxlc2hlZXQnIGhyZWY9J2h0dHBzOi8vZm9udHMuZ29vZ2xlYXBpcy5jb20vY3NzP2ZhbWlseT1Sb2JvdG86MzAwJy8+XG5cdFx0XHQ8bGluayByZWw9J3N0eWxlc2hlZXQnIGhyZWY9Jy9zdGF0aWMvaWNvbnMuY3NzJy8+XG5cdFx0PC9OZXh0SGVhZD5cblx0PC9GcmFnbWVudD5cbilcbiJdfQ== */\n/*@ sourceURL=/Users/mm/Desktop/projects/www.mayer.pub/components/Head.jsx */",
+    styleId: "663513032",
+    css: "body{font-family:'Roboto',sans-serif;font-size:1rem;margin:0;line-height:1.6rem;}.container{max-width:768px;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;padding:8px;margin:0 auto;}h1{margin-block-end:0.4em;}h2{margin-block-end:0.2em;}p{margin-block-start:0.6em;margin-block-end:0.6em;}ul{margin-block-start:0.2em;margin-block-end:0.2em;}li{font-size:1rem;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9tbS9EZXNrdG9wL3Byb2plY3RzL3d3dy5tYXllci5wdWIvY29tcG9uZW50cy9IZWFkLmpzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFLcUIsQUFHc0MsQUFNakIsQUFPTyxBQUdBLEFBR0UsQUFJQSxBQUlULGVBQ2pCLENBckJjLE9BT2QsQUFHQSxFQUd3QixBQUlBLE9BdkJSLGVBQ04sQ0FtQlYsQUFJQSxRQXRCb0IsbUJBQ3BCLGVBSXVCLDhFQUNWLFlBQ0UsY0FDZiIsImZpbGUiOiIvVXNlcnMvbW0vRGVza3RvcC9wcm9qZWN0cy93d3cubWF5ZXIucHViL2NvbXBvbmVudHMvSGVhZC5qc3giLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QsIHsgRnJhZ21lbnQgfSBmcm9tICdyZWFjdCdcbmltcG9ydCBOZXh0SGVhZCBmcm9tICduZXh0L2hlYWQnXG5cbmV4cG9ydCBkZWZhdWx0IChwcm9wcykgPT4gKFxuXHQ8RnJhZ21lbnQ+XG5cdFx0PHN0eWxlIGpzeCBnbG9iYWw+e2Bcblx0XHRcdGJvZHkge1xuXHRcdFx0XHRmb250LWZhbWlseTogJ1JvYm90bycsIHNhbnMtc2VyaWY7XG5cdFx0XHRcdGZvbnQtc2l6ZTogMXJlbTtcblx0XHRcdFx0bWFyZ2luOiAwO1xuXHRcdFx0XHRsaW5lLWhlaWdodDogMS42cmVtO1xuXHRcdFx0fVxuXHRcdFx0LmNvbnRhaW5lciB7XG5cdFx0XHRcdG1heC13aWR0aDogNzY4cHg7XG5cdFx0XHRcdGRpc3BsYXk6IGZsZXg7XG5cdFx0XHRcdGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XG5cdFx0XHRcdHBhZGRpbmc6IDhweDtcblx0XHRcdFx0bWFyZ2luOiAwIGF1dG87XG5cdFx0XHR9XG5cdFx0XHRoMSB7XG5cdFx0XHRcdG1hcmdpbi1ibG9jay1lbmQ6IDAuNGVtO1xuXHRcdFx0fVxuXHRcdFx0aDIge1xuXHRcdFx0XHRtYXJnaW4tYmxvY2stZW5kOiAwLjJlbTtcblx0XHRcdH1cblx0XHRcdHAge1xuXHRcdFx0XHRtYXJnaW4tYmxvY2stc3RhcnQ6IDAuNmVtO1xuXHRcdFx0XHRtYXJnaW4tYmxvY2stZW5kOiAwLjZlbTtcblx0XHRcdH1cblx0XHRcdHVsIHtcblx0XHRcdFx0bWFyZ2luLWJsb2NrLXN0YXJ0OiAwLjJlbTtcblx0XHRcdFx0bWFyZ2luLWJsb2NrLWVuZDogMC4yZW07XG5cdFx0XHR9XG5cdFx0XHRsaSB7XG5cdFx0XHQgXHRmb250LXNpemU6IDFyZW07XG5cdFx0XHR9XG5cdFx0YH08L3N0eWxlPlxuXHRcdDxOZXh0SGVhZD5cblx0XHRcdDxzY3JpcHQgYXN5bmMgc3JjPVwiaHR0cHM6Ly93d3cuZ29vZ2xldGFnbWFuYWdlci5jb20vZ3RhZy9qcz9pZD1VQS0xMzIzNDQ4MjktMVwiIC8+XG5cdFx0XHQ8c2NyaXB0IHNyYz1cIi9zdGF0aWMvZ2EuanNcIiAvPlxuXG5cdFx0XHQ8dGl0bGU+e3Byb3BzLnRpdGxlfTwvdGl0bGU+XG5cdFx0XHQ8bWV0YSBjaGFyU2V0PSd1dGYtOCcgLz5cblx0XHRcdDxtZXRhIG5hbWU9J3ZpZXdwb3J0JyBjb250ZW50PSdpbml0aWFsLXNjYWxlPTEuMCwgd2lkdGg9ZGV2aWNlLXdpZHRoJyAvPlxuXHRcdFx0PGxpbmsgcmVsPSdzdHlsZXNoZWV0JyBocmVmPSdodHRwczovL2ZvbnRzLmdvb2dsZWFwaXMuY29tL2Nzcz9mYW1pbHk9Um9ib3RvOjMwMCcgLz5cblx0XHRcdDxsaW5rIHJlbD0nc3R5bGVzaGVldCcgaHJlZj0nL3N0YXRpYy9pY29ucy5jc3MnIC8+XG5cdFx0PC9OZXh0SGVhZD5cblx0PC9GcmFnbWVudD5cbilcbiJdfQ== */\n/*@ sourceURL=/Users/mm/Desktop/projects/www.mayer.pub/components/Head.jsx */",
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_2___default.a, {
     __source: {
@@ -102,7 +139,7 @@ var _jsxFileName = "/Users/mm/Desktop/projects/www.mayer.pub/components/Head.jsx
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("script", {
     async: true,
     src: "https://www.googletagmanager.com/gtag/js?id=UA-132344829-1",
-    className: "jsx-1485752588",
+    className: "jsx-663513032",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 39
@@ -110,14 +147,14 @@ var _jsxFileName = "/Users/mm/Desktop/projects/www.mayer.pub/components/Head.jsx
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("script", {
     src: "/static/ga.js",
-    className: "jsx-1485752588",
+    className: "jsx-663513032",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 40
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("title", {
-    className: "jsx-1485752588",
+    className: "jsx-663513032",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 42
@@ -125,7 +162,7 @@ var _jsxFileName = "/Users/mm/Desktop/projects/www.mayer.pub/components/Head.jsx
     __self: this
   }, props.title), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
     charSet: "utf-8",
-    className: "jsx-1485752588",
+    className: "jsx-663513032",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 43
@@ -134,7 +171,7 @@ var _jsxFileName = "/Users/mm/Desktop/projects/www.mayer.pub/components/Head.jsx
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
     name: "viewport",
     content: "initial-scale=1.0, width=device-width",
-    className: "jsx-1485752588",
+    className: "jsx-663513032",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 44
@@ -143,7 +180,7 @@ var _jsxFileName = "/Users/mm/Desktop/projects/www.mayer.pub/components/Head.jsx
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("link", {
     rel: "stylesheet",
     href: "https://fonts.googleapis.com/css?family=Roboto:300",
-    className: "jsx-1485752588",
+    className: "jsx-663513032",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 45
@@ -152,7 +189,7 @@ var _jsxFileName = "/Users/mm/Desktop/projects/www.mayer.pub/components/Head.jsx
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("link", {
     rel: "stylesheet",
     href: "/static/icons.css",
-    className: "jsx-1485752588",
+    className: "jsx-663513032",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 46
@@ -187,7 +224,7 @@ var jss = {
   headerPara: {
     margin: "5px"
   },
-  iconLink: {
+  link: {
     textDecoration: "none",
     color: "black"
   }
@@ -214,54 +251,62 @@ var jss = {
       lineNumber: 22
     },
     __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    style: jss.link,
+    href: "/",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23
+    },
+    __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    style: jss.headerPara,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 23
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "icon-embed2",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 23
-    },
-    __self: this
-  }), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 23
-    },
-    __self: this
-  }, "Matth\xE4us Mayer")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     style: jss.headerPara,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 24
     },
     __self: this
-  }, " "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "icon-embed2",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
+    },
+    __self: this
+  }), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
+    },
+    __self: this
+  }, "Matth\xE4us Mayer"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     style: jss.headerPara,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25
+      lineNumber: 26
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    style: jss.headerPara,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    style: jss.iconLink,
+    style: jss.link,
     href: "https://github.com/theMattCode",
     target: "_blank",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26
+      lineNumber: 28
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     className: "icon-github",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27
+      lineNumber: 29
     },
     __self: this
   }))))));
@@ -325,6 +370,7 @@ var _jsxFileName = "/Users/mm/Desktop/projects/www.mayer.pub/components/Layout.j
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_markdown__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    escapeHtml: false,
     source: props.content,
     __source: {
       fileName: _jsxFileName,
@@ -16294,8 +16340,8 @@ __webpack_require__.r(__webpack_exports__);
 /* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Layout */ "./components/Layout.jsx");
-/* harmony import */ var _index_about_md__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./index/about.md */ "./pages/index/about.md");
-/* harmony import */ var _index_about_md__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_index_about_md__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _index_md__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./index.md */ "./pages/index.md");
+/* harmony import */ var _index_md__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_index_md__WEBPACK_IMPORTED_MODULE_2__);
 var _jsxFileName = "/Users/mm/Desktop/projects/www.mayer.pub/pages/index.js";
 
 
@@ -16303,7 +16349,7 @@ var _jsxFileName = "/Users/mm/Desktop/projects/www.mayer.pub/pages/index.js";
 /* harmony default export */ __webpack_exports__["default"] = (function () {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Layout__WEBPACK_IMPORTED_MODULE_1__["default"], {
     title: "Matth\xE4us Mayer",
-    content: _index_about_md__WEBPACK_IMPORTED_MODULE_2___default.a,
+    content: _index_md__WEBPACK_IMPORTED_MODULE_2___default.a,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 6
@@ -16333,14 +16379,14 @@ var _jsxFileName = "/Users/mm/Desktop/projects/www.mayer.pub/pages/index.js";
 
 /***/ }),
 
-/***/ "./pages/index/about.md":
-/*!******************************!*\
-  !*** ./pages/index/about.md ***!
-  \******************************/
+/***/ "./pages/index.md":
+/*!************************!*\
+  !*** ./pages/index.md ***!
+  \************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "# About Me\n\nHello! My name is Matthäus Mayer. I'm a full-stack developer and DevOps engineer based in southern Germany. I am extremely passionate about developing robust and modern applications. Overall, I'm an IT and technology enthusiast and love to live in a digitalized world. Currently, in 2019, I start contracting and freelancing beside my day job to gain experience in this field and to boot up the business.\n\nI started learning C in 2001 when I was 16 years old and continued with PHP, HTML and CSS. The first major completed project was an asset management web application in 2003 while I completed my apprenticeship at Hewlett-Packard. Since then, I have studied Business Informatics up to my Master's degree and have been employed as a software developer and DevOps engineer.\n\n## Technical Interests & Focus\n\nI went through the stages of a full-stack developer from building desktop applications, backends and web frontends until I concentrated on fully automated development workflows and continuously integrated and deployed cloud-native systems. I enjoy learning new frameworks, libraries, programming philosophies and concepts and love to get feedback to constantly improve. This experience and a quick grasp allows a variety of uses for my skills.\n\nTechnically, I focus on **Golang**, **Java** or PHP for the backend or desktop part and **React** (ES5/6) for frontend.  In past and current projects I have great success with **Docker**, **Kubernetes** and **Infrastructure as Code** at the operations part.\n\n## Tools\n\nMost of the time I work in IntelliJ IDEA and with the bash command line with iTerm2. I enjoy their features, integration, reliability and speed. For ad-hoc editing I use Visual Studio Code. In the past I have used Eclipse a lot.\n\n## Workflow\n\nI organize my tasks in a kanban-like approach with [Trello](https://trello.com) and follow the [Inbox Zero](https://youtu.be/z9UjeTMb3Yk) principle. I try to limit micromanagement to one day, but set priorities in a long-term roadmap.\n\nFor some time now I have been following the premise of [Josh Kaufman's 20 hour rule](https://www.youtube.com/watch?v=5MgBikgcWnY), which, in my opinion, is a great way of putting pragmatism into practise and bringing me to my current situation. In addition, this opens up the possibility of solving problems and iteratively improving whatever comes out.\n\n## Contact & Social Media\n\nPlease check in via:\n * Twitter: [@theMattCode](https://twitter.com/theMattCode)\n * E-Mail: matthaeus@mayer.pub\n * Github: [theMattCode](https://github.com/theMattCode)\n * [LinkedIn](https://www.linkedin.com/in/matthäus-mayer-714272148/)\n\n"
+module.exports = "[English version](/aboutme)\n\nHi! Mein Name ist Matthäus Mayer. Ich sehe mich selbst als Digital native und bin seit über 10 Jahren Full-Stack-Entwickler mit DevOps-Erfahrung aus Süddeutschland. Ich interessiere und beschäftige mich mit der Entwicklung robuster, moderner, skalierbarer und kundenorientierter Software. Ich bin ein begeisterter IT- und Technologie-Fan und lebe überaus gerne in einer digitalisierten Welt. Ich arbeite hauptberuflich bei Bergfreunde.de und nebenberuflich als Freiberufler. \n\n2001 begann die Odysee mit der Sprache C und setzte die Reise mit PHP, HTML und CSS fort. Das erste größere Projekt ist während meiner Ausbildung bei Hewlett-Packard 2003 entstanden. Die Aufgabe war eine Web-Anwendung zum Asset-Management. Es folgte das Bachelor- und Master-Studium in Wirtschaftsinformatik und bin aktuell als Softwareentwickler und DevOps-Ingenieur angestellt.\n\n## Interessen\n\nBis hin zum Full-Stack-Entwickler habe ich folgende Phasen durchlafen. Angefangen bei der Entwicklung von Desktop-Anwendungen, habe ich Backends und Web-Frontends, voll automatisierte Entwicklungs-, Test- und Build-Abläufe bis hin zu kontinuierlich integrierte Cloud-native Systeme implementiert. Ich lerne gerne neue Frameworks, Bibliotheken, Programmierphilosophien und Konzepte kennen und freue mich über jede Art von Feedback.\n\nTechnisch habe ich am meisten Erfahrung mit **Golang**, **Java**, PHP und **React** (ES5/6). In vergangenen Projekten habe ich großen Erfolg mit **Docker**, **Kubernetes** und **Infrastructure as Code** und weiß deren Mehrwert zu schätzen.\n\n## Werkzeug\n\nDie meiste Zeit verbringe ich in IntelliJ IDEA and with the bash command line with iTerm2. I enjoy their features, integration, reliability and speed. For ad-hoc editing I use Visual Studio Code. In the past I have used Eclipse a lot.\n\n## Workflow\n\nIch organisiere meine Aufgaben in Anlehnung an Kanban mit [Trello](https://trello.com) und verfolge das [Inbox Zero](https://youtu.be/z9UjeTMb3Yk) Prinzip. Ich beschränke Feinplanungen auf maximal einen Tag und bringe Projekte und Prioritäten in einer Roadmap in eine Reihenfolge.\n\nSeit einiger Zeit lerne ich neue Themen nach [Josh Kaufman's 20 Stunden Regel](https://www.youtube.com/watch?v=5MgBikgcWnY). Meines Erachtens nach ist das der perfekte Weg pragmatisch und zielorientiert zu arbeiten und sich iterativ zu verbessern.\n\n## Kontakt und soziale Medien\n\n * Twitter: [@theMattCode](https://twitter.com/theMattCode)\n * E-Mail: m19@mayer.pub\n * Github: [theMattCode](https://github.com/theMattCode)\n * [LinkedIn](https://www.linkedin.com/in/matthäus-mayer-714272148/)\n\n"
 
 /***/ }),
 
