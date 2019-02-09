@@ -26,9 +26,7 @@ export default () => (
 					&copy; {(new Date()).getFullYear()} <span className="icon-embed2" /> with ♥ by <b>Matthäus Mayer</b>
 				</p>
 				<p style={jss.p}>
-					<a style={jss.link} href="/impressum">Impressum</a>
-					&nbsp;
-					<a style={jss.link} href="/datenschutz">Datenschutz</a>
+					<a style={jss.link} href="/impressum">Impressum &amp; Datenschutz</a>
 				</p>
 			</div>
 		</div>
