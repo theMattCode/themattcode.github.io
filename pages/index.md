@@ -12,7 +12,7 @@ Technisch habe ich am meisten Erfahrung und Spass mit **Golang**, **Java**, PHP 
 
 ## Werkzeug
 
-Die meiste Zeit verbringe ich in IntelliJ IDEA and with the bash command line with iTerm2. I enjoy their features, integration, reliability and speed. For ad-hoc editing I use Visual Studio Code. In the past I have used Eclipse a lot.
+Die meiste Zeit verbringe ich in IntelliJ IDEA und mit iTerm2 auf der Bash command line. Deren Features, Integrationen, Zuverlässigkeit und Geschwindigkeit sind die perfekte Unterstützung meiner Arbeit. Für einfaches Editieren bevorzuge ich Visual Studio Code.
 
 ## Workflow
 
