@@ -1,6 +1,6 @@
 [German version](/)
 
-Hello! My name is Matthäus Mayer. I'm a full-stack developer and DevOps engineer based in southern Germany. I am extremely passionate about developing robust and modern applications. Overall, I'm an IT and technology enthusiast and love to live in a digitalized world. Currently, in 2019, I start contracting and freelancing beside my day job to gain experience in this field and to boot up the business.
+Hello! My name is Matthäus Mayer. I'm a full-stack developer and DevOps engineer based in southern Germany. I am extremely passionate about developing robust and modern applications. Overall, I'm an IT and technology enthusiast and love to live in a digitalized world. In 2019, I started contracting and freelancing beside my day job to gain experience in this field and to boot up the business.
 
 I started learning C in 2001 when I was 16 years old and continued with PHP, HTML and CSS. The first major completed project was an asset management web application in 2003 while I completed my apprenticeship at Hewlett-Packard. Since then, I have studied Business Informatics up to my Master's degree and have been employed as a software developer and DevOps engineer.
 

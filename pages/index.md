@@ -1,6 +1,6 @@
 [English version](/aboutme)
 
-Hi! Mein Name ist Matthäus Mayer. Ich sehe mich selbst als Digital native und bin seit über 10 Jahren Full-Stack-Entwickler mit DevOps-Erfahrung aus Süddeutschland. Ich interessiere und beschäftige mich mit der Entwicklung und dem Betrieb robuster, moderner, skalierbarer und kundenorientierter Software. Ich bin ein begeisterter IT- und Technologie-Fan und lebe überaus gerne in einer digitalisierten Welt. Ich arbeite hauptberuflich bei Bergfreunde.de und nebenberuflich als Freiberufler.
+Hi! Mein Name ist Matthäus Mayer. Ich sehe mich selbst als Digital native und bin seit über 10 Jahren Full-Stack-Entwickler mit DevOps-Erfahrung aus Süddeutschland. Ich interessiere und beschäftige mich mit der Entwicklung und dem Betrieb robuster, moderner, skalierbarer und kundenorientierter Software. Ich bin ein begeisterter IT- und Technologie-Fan und lebe überaus gerne in einer digitalisierten Welt. Ich arbeite hauptberuflich bei itdesign GmbH und nebenberuflich als Freiberufler.
 
 2001 begann die Entwickler-Reise mit der Sprache C und ging mit PHP, HTML und CSS weiter. Im Studium kam Java dazu und seit 2015 bin ich ein großer Fan von Golang und seit 2017 auch von React.
 
